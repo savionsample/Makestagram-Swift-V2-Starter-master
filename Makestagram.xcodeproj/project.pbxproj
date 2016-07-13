@@ -38,6 +38,8 @@
 		FF5A78F31D2DA2C1007D02A4 /* FriendSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5A78F21D2DA2C1007D02A4 /* FriendSearchViewController.swift */; };
 		FF5A78F81D2DBD6E007D02A4 /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5A78F71D2DBD6E007D02A4 /* PhotoTakingHelper.swift */; };
 		FF9050C61D2EBFDA005DAFC1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9050C51D2EBFDA005DAFC1 /* Post.swift */; };
+		FF9050D21D2F10E7005DAFC1 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9050D11D2F10E7005DAFC1 /* PostTableViewCell.swift */; };
+		FF9050D61D2F1E3B005DAFC1 /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9050D51D2F1E3B005DAFC1 /* ParseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		FF5A78F21D2DA2C1007D02A4 /* FriendSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchViewController.swift; sourceTree = "<group>"; };
 		FF5A78F71D2DBD6E007D02A4 /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTakingHelper.swift; sourceTree = "<group>"; };
 		FF9050C51D2EBFDA005DAFC1 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FF9050D11D2F10E7005DAFC1 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		FF9050D51D2F1E3B005DAFC1 /* ParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +206,7 @@
 			children = (
 				6277189D1B0A58E800AF5C6E /* ErrorHandling.swift */,
 				6277189E1B0A58E800AF5C6E /* ParseLoginHelper.swift */,
+				FF9050D51D2F1E3B005DAFC1 /* ParseHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 		62C8C1E21B06BD6500DC3EA7 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				FF9050C71D2F100B005DAFC1 /* Views */,
 				FF9050C41D2EBFC8005DAFC1 /* Models */,
 				FF5A78F61D2DBD3A007D02A4 /* PhotoTaking */,
 				6277189C1B0A58E800AF5C6E /* Helpers */,
@@ -282,6 +288,22 @@
 				FF9050C51D2EBFDA005DAFC1 /* Post.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		FF9050C71D2F100B005DAFC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF9050CC1D2F1070005DAFC1 /* Timeline */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF9050CC1D2F1070005DAFC1 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				FF9050D11D2F10E7005DAFC1 /* PostTableViewCell.swift */,
+			);
+			path = Timeline;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +525,8 @@
 				FF5A78F11D2DA2A9007D02A4 /* PhotoViewController.swift in Sources */,
 				62C8C1E61B06BD6500DC3EA7 /* AppDelegate.swift in Sources */,
 				627718971B0A581700AF5C6E /* FilterViewController.swift in Sources */,
+				FF9050D61D2F1E3B005DAFC1 /* ParseHelper.swift in Sources */,
+				FF9050D21D2F10E7005DAFC1 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
